@@ -71,12 +71,12 @@ while True:
             if True in matches:
                 first_match_index = matches.index(True)
                 name = known_face_names[first_match_index]
-
+            # Add all names to array for displaying on the screen
             face_names.append(name)
-
+            # if person is unknown then add that to the unknow array for counting total number of unknown people
             if name == "Unknown":
                 Unknown_array.append(name)
-
+            # else filter duplicate names and add those to the final array
             else:
                 if name not in all_time_faces_names:
                     all_time_faces_names.append(name)
