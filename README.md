@@ -1,8 +1,12 @@
 # Attendance-with-Deep-Learning
 Take attendance of your employees and students with Machine Learning
 
+<img src="https://5.imimg.com/data5/WP/CR/MY-10190404/face-recognition-based-attendance-system-500x500.jpg" />
+
 # Install
  You can use any face_recognization algorithm here.. but I used this. ```pip3 install face_recognition```
+ 
+ You can do same things in Raspberry pi
 
 
 
